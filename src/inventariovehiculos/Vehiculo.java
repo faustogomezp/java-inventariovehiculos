@@ -11,10 +11,10 @@ package inventariovehiculos;
  */
 public class Vehiculo {
     
-    private final String velocidad;
-    private final String pasajeros;
-    private final String placa;
-    private final String tipo;
+    protected final String velocidad;
+    protected final String pasajeros;
+    protected final String placa;
+    protected final String tipo;
 
     public String getVelocidad() {
         return velocidad;
